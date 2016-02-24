@@ -1,0 +1,19 @@
+{
+  "name": "iborodikhin/kdb-client",
+  "description": "PHP client for KDB (Koraduba) file storage",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Igor Borodikhin",
+      "email": "iborodikhin@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kdb\\": "src"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.1"
+  }
+}
