@@ -75,13 +75,6 @@ class Connection
             $this->getUrlForFilename($remoteFile),
             [
                 'body' => $localFile->getContent(),
-//                'multipart' => [
-//                    [
-//                        'contents' => $localFile->getContent(),
-//                        'filename' => basename($localFile->getName()),
-//
-//                    ]
-//                ],
             ]
         );
 
